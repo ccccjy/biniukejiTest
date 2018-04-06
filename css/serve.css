@@ -1,0 +1,146 @@
+.content{
+	background: #f6f5f5;
+}
+.custom{
+	padding-top: 200px;
+	height: 760px;
+	
+}
+.clear{
+	clear: both;
+}
+.custom .item-text{
+	padding-left: 70px;
+	width: 40%;
+	margin-right: 10%;
+}
+.custom .item-img{
+	position: relative;
+	height: 350px;
+	background: #fff;
+}
+.custom .custom-one{
+	position: absolute;
+	bottom: 43px;
+	right: 17px;
+}
+.custom .custom-two{
+	position: absolute;
+	top: -60px;
+	left: 67px;
+	
+}
+.custom .custom-three{
+	position: absolute;
+	bottom: -140px;
+	right: 0;
+	width: 200px;
+}
+.custom .custom-top{
+	position: absolute;
+	top: -128px;
+	left: -170px;
+}
+.item-text h2,
+.again h2{
+	font-size: 38px;
+	font-family: "Microsoft Yahei";
+}
+.item-text h2 span{
+	color: #5f55ce;
+}
+.item-text h2 small,
+.again h2 small{
+	display: block;
+	margin-top: 25px;
+	color: #343434;
+	font-size: 38%;
+	line-height: 24px;
+	font-family: "Microsoft Yahei";
+}
+.again{
+	text-align: right;
+}
+.again h2 small{
+	font-size: 40%;
+	color: #959595;
+	margin-top: 5px;
+}
+.again h2{
+	text-align: right;
+}
+.again-img{
+	width: 930px;
+	height: 480px;
+	margin: 0 auto;
+
+}
+.again-img img{
+	width: 100%;
+	height: 100%;
+}
+.danxiaoer{
+	margin-top: 100px;
+}
+.danxiaoer .item-text{
+	padding-left: 70px;
+	width: 45%;
+	margin-right: 5%;
+}
+.danxiaoer .item-img img{
+	width: 100%;
+	height: 100%;
+}
+.last{
+	margin-top:  30px;
+	height: 566px;
+	margin-bottom: 120px;
+	position: relative;
+	padding-top: 80px;
+}
+.last-back{
+	background: #efefef;
+	padding-top: 81px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.last-box{
+	position: relative;
+	width: 864px;
+	height: 479px;
+	margin-left: 230px;
+}
+.border{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #d1c6b7;
+	border-bottom: 0;
+	position: relative;
+}
+.border .cover1{
+	position: absolute;
+	top: -5px;
+	left: 55px;
+	height: 5px;
+	width: 140px;
+	background: #efefef;
+}
+.cover2{
+	position: absolute;
+	bottom: 0;
+	right: -3px;
+	height: 35px;
+	width: 5px;
+	background: #efefef;
+	margin-bottom: 0;
+}
+.last img{
+	position: absolute;
+	left: -50px;
+	top: 40px;
+	width: 100%;
+	height: 100%;
+}

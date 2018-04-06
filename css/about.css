@@ -1,0 +1,131 @@
+.head{
+	width: 100%
+}
+.head img{
+	max-width: 100%;
+}
+.content .we .title{
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	color: #292929;
+}
+.content .we .title h2{
+	color: #292929;
+	font-size: 60px;
+	height: 150px;
+	line-height: 150px;
+}
+.content .we .title h2 small{
+	font-size: 24px;
+	padding-left: 15px;
+	color: #292929;
+}
+.we-con{
+	background: #5f55ce;
+}
+.ins-box{
+	margin: 75px 0 175px 220px;
+	background: #7c71fa;
+	height: 500px;
+	width: 918px;
+	position: relative;
+}
+.text{
+	padding-left: 500px;
+	color: #fff;
+	padding-right: 40px;
+}
+.text h2{
+	padding: 110px 0;
+	margin: 0;
+	font-size: 50px;
+}
+.text h4{
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+.text h4 small{
+	font-size: 20px;
+	color: #fff;
+}
+.text p{
+	font-size: 16px;
+	line-height: 26px;
+}
+.ins-img{
+	position: absolute;
+	top: 102px;
+	left: -204px;
+	width: 670px;
+	height: 470px;
+}
+.ins-img img{
+	width: 100%;
+	height: 100%;
+}
+.team{
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+.team .item-title{
+	font-size: 60px;
+}
+.team .item-title small{
+	font-size: 24px;
+	color: #525151;
+}
+.show{
+	width: 100%;
+	background: #5f55ce;
+	padding-top: 60px;
+}
+.achievement{
+	padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+.achievement a{
+	display: block;
+	background: #7c71fa;
+}
+.achievement a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.achievement .certificate{
+	height: 320px;
+	margin: 0 26px;
+	text-align: center;
+	line-height: 338px;
+}
+.achievement .certificate img{
+	max-width: 100%;
+	border: 10px solid #fff;
+	box-shadow: 0 0 30px rgba(0,0,0,0.2);
+	transition: all 0.4s cubic-bezier(0.23,1,0.38,1)
+
+}
+.show .container .row{
+	width: 90%;
+	margin: 0 auto;
+}
+.achievement:hover .certificate img{
+	transform: matrix(1,0,0,1,0,-10);
+}
+.achievement .ins{
+	position: relative;
+	top: 20px;
+	margin: 0 26px;
+	background: #35b5f8;
+	padding: 10px 20px;
+	height: 62px;
+	font-size: 14px;
+	line-height: 24px;
+	overflow: hidden;
+}
+.achievement .ins p{
+	color: #fff;
+}
+.sign{
+	padding-top: 40px;
+}

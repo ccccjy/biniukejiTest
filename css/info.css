@@ -1,0 +1,166 @@
+body{
+	background: #f6f5f5;
+}
+a:hover{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+}
+.head img{
+	max-width: 100%;
+}
+.content{
+	background: #f6f5f5;
+}
+.type-item{
+	padding: 0;
+	color: #1d1d1d;
+	text-align: center;
+	background: #fff;
+	font-family: "Microsoft Yahei";
+	width: 33%;
+	margin-top: 20px;
+	
+}
+.type-item:not(:last-child){
+	margin-right: 0.5%;
+}
+.type-item h2{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	margin: 0;
+}
+.type-item h2 small{
+	display: block;
+	font-size: 14px;
+	color: #1d1d1d;
+	margin-top: 10px;
+
+}
+.content .container{
+	position: relative;
+}
+.typenav{
+	overflow: hidden;
+	position: absolute;
+	top: -40px;
+	width: 100%;
+	padding-right: 30px;
+	height: 120px;
+}
+.list {
+	margin-top: 80px;
+}
+.list ul li{
+	margin-top: 2%;
+	padding-right: 15px;
+}
+.list ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	color: #2f2f2f;
+	font-family: "Microsoft Yahei";
+}
+.list ul li a .picbox{
+	min-height: 100px;
+	overflow: hidden;
+}
+.list ul li a .picbox img{
+	width: 100%;
+	background: 
+}
+.list ul li a .text{
+	padding: 5% 5% 6%;
+}
+.list ul li a .text .date{
+	font-size: 15px;
+	color: #2f2f2f;
+}
+.list ul li a h5{
+	margin-top: 8%;
+	margin-bottom: 3%;
+	font-size: 18px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list ul li a p{
+	font-size: 14px;
+	line-height: 25px;
+	height: 50px;
+	overflow: hidden;
+}
+.type-item:hover{
+	background: #5f55ce;
+	color: #fff;
+	margin-top: 0;
+	transition: all 0.35s linear;
+}
+.type-item:hover h2 small{
+	color: #fff;
+}
+.type-active{
+	background: #5f55ce;
+	color: #fff;
+}
+.type-active h2 small{
+	color: #fff;
+}
+.page{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.page #pagination{
+	text-align: center;
+}
+.page #pagination .whj_jqueryPaginationCss-1 .whj_border{
+	background: #fff;
+	opacity: 1;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+	padding: 0;
+	margin: 0 5px;
+	border: none;
+	color: #747474;
+}
+.page #pagination .whj_jqueryPaginationCss-1 .whj_checked{
+	background-color: #5f55ce;
+	color: #fff;
+}
+.page #pagination .whj_jqueryPaginationCss-1 .whj_hoverDisable {
+	opacity: 0.5;
+}
+.list .picbox img{
+	
+	transition: 1s;
+}
+.list ul li:hover .picbox img{
+	transform: scale(1.1);
+}
+
+.list ul li .text{
+	transition: 1s;
+}
+
+
+.list ul li:hover .text{
+	color: #fff;
+	background: #5f55ce;
+	
+}
+.list ul li:hover .text span{
+    color: #fff;
+    
+}
+footer{
+	background: #fff;
+}
